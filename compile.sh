@@ -1,0 +1,1 @@
+clang -L/home/pc404/Projects/raylib/build/raylib -Wl,-rpath=/home/pc404/Projects/raylib/build/raylib -Wall -Wextra -I/home/pc404/Projects/raylib/build/raylib/include -O3 -o main main.c -lraylib -lm -v
